@@ -4,7 +4,10 @@ import { ThemeProvider } from "@/context/ThemeContext";
 
 export const metadata = {
   title: "GDG on Campus CIC - Leaderboard",
-  description: "Live student leaderboard for GDG on Campus CIC",
+  description: "Student leaderboard for GDG on Campus CIC",
+  icons: {
+    icon: "/GDG_logo_black_bg.png",
+  },
 };
 
 export default function RootLayout({ children }) {

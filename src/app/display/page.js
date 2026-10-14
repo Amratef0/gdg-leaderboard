@@ -178,7 +178,7 @@ function DisplayPageInner() {
                   onClick={() => handlePrefChange("global")}
                   className={`block w-full rounded-lg px-3 py-2 text-left text-sm ${viewPref === "global" ? "bg-gdg-blue/20 text-gdg-blue" : "text-white/80 hover:bg-white/5"}`}
                 >
-                  🌍 All Tracks
+                  All Tracks
                 </button>
                 {tracks.map((t) => (
                   <button
