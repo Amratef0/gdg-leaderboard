@@ -6,7 +6,7 @@ export const metadata = {
   title: "GDG on Campus CIC - Leaderboard",
   description: "Student leaderboard for GDG on Campus CIC",
   icons: {
-    icon: "/GDG_logo_transparent.png",
+    icon: "/Crowned Colorful Chevron Emblem.png",
   },
 };
 

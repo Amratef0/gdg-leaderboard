@@ -296,8 +296,7 @@ export default function PublicLeaderboardPage() {
           )}
         </div>
 
-        {/* Rising Star - Live Activity removed */}
-        {!isSearching && selectedView !== "week" && <RisingStar />}
+      
 
         {/* Track filters */}
         <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
