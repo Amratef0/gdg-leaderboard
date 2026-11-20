@@ -304,7 +304,7 @@ export default function PublicLeaderboardPage() {
             onClick={() => setSelectedView("global")}
             className={
 selectedView === "global"
-  ? "btn-primary !bg-[#9333EA] hover:!bg-[#7E22CE]"
+  ? "btn-primary !bg-[#800020] hover:!bg-[#660019]"
   : "btn-secondary"            }
           >
             All Tracks
@@ -316,7 +316,7 @@ selectedView === "global"
               onClick={() => setSelectedView(track.id)}
               className={
                 selectedView === track.id
-                  ? "btn-primary !bg-[#9333EA] hover:!bg-[#7E22CE]"
+                  ? "btn-primary !bg-[#800020] hover:!bg-[#660019]"
                   : "btn-secondary"
               }
             >
@@ -327,7 +327,7 @@ selectedView === "global"
           <button
             onClick={() => setSelectedView("week")}
             className={
-              selectedView === "week" ? "btn-primary !bg-[#9333EA] hover:!bg-[#7E22CE]" : "btn-secondary"
+              selectedView === "week" ? "btn-primary !bg-[#800020] hover:!bg-[#660019]" : "btn-secondary"
             }
           >
             <TrendingUp size={14} /> This Week
