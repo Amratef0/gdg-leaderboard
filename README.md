@@ -136,7 +136,7 @@ git push -u origin main
      "secret": "نفس-الكلمة-اللي-حطيتها",
      "email": "student@example.com",
      "points": 5,
-     "category": "attendance_bonus",
+     "category": "bonus",
      "note": "Attended session 3"
    }
    ```

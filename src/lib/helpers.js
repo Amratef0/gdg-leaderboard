@@ -1,14 +1,12 @@
 export const CATEGORY_LABELS = {
   assignment: "Assignment",
   quiz: "Quiz",
-  attendance_bonus: "Attendance Bonus",
   bonus: "Bonus",
 };
 
 export const CATEGORY_COLORS = {
   assignment: "bg-gdg-green/15 text-gdg-green",
   quiz: "bg-gdg-blue/15 text-gdg-blue",
-  attendance_bonus: "bg-gdg-yellow/20 text-yellow-700 dark:text-yellow-400",
   bonus: "bg-purple-500/15 text-purple-600 dark:text-purple-400",
 };
 

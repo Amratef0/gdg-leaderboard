@@ -40,13 +40,6 @@ const CATEGORY_BUTTONS = [
       "bg-gdg-blue/10 text-gdg-blue hover:bg-gdg-blue/20",
   },
   {
-    key: "attendance_bonus",
-    label: "Attendance",
-    icon: Sparkles,
-    className:
-      "bg-gdg-yellow/15 text-yellow-700 hover:bg-gdg-yellow/25 dark:text-yellow-400",
-  },
-  {
     key: "bonus",
     label: "Bonus",
     icon: Sparkles,
